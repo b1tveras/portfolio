@@ -3,16 +3,7 @@ import SectionTitle from '../ui/SectionTitle';
 import { motion } from 'framer-motion';
 
 const experienceData = [
-    {
-        role: "hospital management system(Live Project) ",
-        company: "Technologies: Java, Spring Boot, React.js, Tailwind CSS, MySQL ",
 
-        description: [
-            " full-stack educational platform to provide free study resources across multiple academic streams. ",
-            "Implemented APIs using Java and Spring Boot to manage notes, resources, and structured content storage. ",
-            "Implemented distributed tracing which reduced debugging time by 40%."
-        ]
-    },
     {
         role: "Full Stack Developer",
         company: "The Skybrisk",
@@ -24,8 +15,19 @@ const experienceData = [
         ]
     },
     {
+        project: "Hospital Management System",
+        Technologies: "Java, Spring Boot, React.js, Tailwind CSS, MySQL ",
+        period: "(Live Project)",
+        description: [
+            " full-stack educational platform to provide free study resources across multiple academic streams. ",
+            "Implemented APIs using Java and Spring Boot to manage notes, resources, and structured content storage. ",
+            "Implemented distributed tracing which reduced debugging time by 40%."
+        ]
+    },
+
+    {
         role: "B.Tech in information technology",
-        company: "chandigarh Group of Collage",
+        college: "chandigarh Group of Collage",
         period: "2022 - 2026",
         description: [
             "Graduated with Honors.",

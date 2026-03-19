@@ -4,19 +4,19 @@ import { motion } from 'framer-motion';
 
 const experienceData = [
     {
-        role: "Senior Java Developer",
-        company: "Tech Corp Inc.",
-        period: "Jan 2023 - Present",
+        role: "hospital management system(Live Project) ",
+        company: "Technologies: Java, Spring Boot, React.js, Tailwind CSS, MySQL ",
+
         description: [
-            "Leading backend development for high-scale microservices architecture.",
-            "Optimizing database queries and mentoring junior developers.",
+            " full-stack educational platform to provide free study resources across multiple academic streams. ",
+            "Implemented APIs using Java and Spring Boot to manage notes, resources, and structured content storage. ",
             "Implemented distributed tracing which reduced debugging time by 40%."
         ]
     },
     {
         role: "Full Stack Developer",
-        company: "Software Solutions Ltd.",
-        period: "Jun 2021 - Dec 2022",
+        company: "The Skybrisk",
+        period: "jan 2029 -mar 2026",
         description: [
             "Developed and maintained full-stack web applications using React and Spring Boot.",
             "Implemented RESTful APIs and integrated third-party services.",
@@ -41,7 +41,7 @@ export default function Experience() {
             <div className="absolute right-0 top-1/4 w-96 h-96 bg-violet-900/20 rounded-full blur-[100px] -z-10" />
 
             <div className="max-w-6xl mx-auto px-6">
-                <SectionTitle title="Where I've Worked"  />
+                <SectionTitle title="Where I've Worked" />
 
                 <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
                     {experienceData.map((item, index) => (

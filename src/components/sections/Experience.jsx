@@ -3,7 +3,7 @@ import SectionTitle from '../ui/SectionTitle';
 import { motion } from 'framer-motion';
 
 const experienceData = [
-
+   
     {
         role: "Full Stack Developer",
         company: "The Skybrisk",
@@ -14,9 +14,9 @@ const experienceData = [
             "Collaborated with UX team to improve user journey."
         ]
     },
-    {
-        project: "Hospital Management System",
-        Technologies: "Java, Spring Boot, React.js, Tailwind CSS, MySQL ",
+     {
+        role: "Hospital Management System",
+        company: "Technologies: Java, Spring Boot, React.js, Tailwind CSS, MySQL ",
         period: "(Live Project)",
         description: [
             " full-stack educational platform to provide free study resources across multiple academic streams. ",
@@ -24,10 +24,10 @@ const experienceData = [
             "Implemented distributed tracing which reduced debugging time by 40%."
         ]
     },
-
+    
     {
         role: "B.Tech in information technology",
-        college: "chandigarh Group of Collage",
+        company: "chandigarh Group of Collage",
         period: "2022 - 2026",
         description: [
             "Graduated with Honors.",

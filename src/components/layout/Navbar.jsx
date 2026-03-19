@@ -111,7 +111,7 @@ export default function Navbar() {
                         transition={{ duration: 0.5, delay: 0.5 }}
                     >
                         <a
-                            href="https://drive.google.com/file/d/1eFdN_-J-caLcNBLaSPBYjAH1N-OmODSS/view."
+                            href="https://drive.google.com/file/d/1eFdN_-J-caLcNBLaSPBYjAH1N-OmODSS/view?usp=drive_link"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="group relative px-6 py-2 bg-transparent overflow-hidden rounded-md transition-all hover:scale-105 active:scale-95"
